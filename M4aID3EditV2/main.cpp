@@ -47,7 +47,7 @@ void writeM4aTags(const std::string& filePath) {
 }
 
 int main() {
-    const std::string filePath = "example.m4a";
+    const std::string filePath = "/Users/dex/CLionProjects/CppTests/M4aID3EditV2/example.m4a";
 
     std::cout << "Reading tags:" << std::endl;
     readM4aTags(filePath);
