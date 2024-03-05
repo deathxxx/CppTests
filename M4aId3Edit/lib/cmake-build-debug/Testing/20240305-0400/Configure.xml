@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20240305-0400-Nightly"
+	Name="192.168.0.101"
+	Generator="ctest-3.27.8"
+	CompilerName="/Library/Developer/CommandLineTools/usr/bin/c++"
+	CompilerVersion="15.0.0.15000100"
+	OSName="macOS"
+	Hostname="DEXs-MacBook-Pro.local"
+	OSRelease="14.2.1"
+	OSVersion="23C71"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="6144"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2300"
+	>
+	<Configure>
+		<StartDateTime>Mar 05 14:57 +06</StartDateTime>
+		<StartConfigureTime>1709629040</StartConfigureTime>
+		<ConfigureCommand>"/Applications/CLion 2.app/Contents/bin/cmake/mac/x64/bin/cmake" "/Users/dex/CLionProjects/taglib-test/taglib"</ConfigureCommand>
+		<Log>-- Could NOT find utf8cpp (missing: utf8cpp_INCLUDE_DIR) 
+-- Using utfcpp from /Users/dex/CLionProjects/taglib-test/taglib/3rdparty/utfcpp
+-- Ensure your cppunit installed version is at least 1.14.0
+[NON-XML-CHAR-0x1B][33mCMake Warning at CMakeLists.txt:192 (message):
+  BUILD_TESTING requested, but CppUnit not found, skipping tests.
+
+[NON-XML-CHAR-0x1B][0m
+-- The following OPTIONAL packages have been found:
+
+ * ZLIB
+
+-- The following OPTIONAL packages have not been found:
+
+ * CppUnit
+
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dex/CLionProjects/taglib-test/taglib/cmake-build-debug
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Mar 05 14:57 +06</EndDateTime>
+		<EndConfigureTime>1709629040</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

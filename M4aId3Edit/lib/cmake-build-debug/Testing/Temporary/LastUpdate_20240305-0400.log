@@ -1,0 +1,27 @@
+--- Begin Cleanup ---
+--- End Cleanup ---
+"/usr/bin/git" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> 0896fb90920c125e55248360d271d1a1674e2a4d
+--- Begin Update ---
+"/usr/bin/git" "fetch"
+"/usr/bin/git" "rev-parse" "--git-dir"
+rev-parse-out> .git
+FETCH_HEAD> 0896fb90920c125e55248360d271d1a1674e2a4d		branch 'master' of https://github.com/taglib/taglib
+"/usr/bin/git" "reset" "--hard" "0896fb90920c125e55248360d271d1a1674e2a4d"
+reset-out> HEAD is now at 0896fb90 Detect utf8cpp by header if cmake config is not found (#1217)
+"/usr/bin/git" "rev-parse" "--show-cdup"
+rev-parse-out> 
+"/usr/bin/git" "--version"
+version-out> git version 2.39.3 (Apple Git-145)
+"/usr/bin/git" "submodule" "sync" "--recursive"
+submodule-out> Synchronizing submodule url for '3rdparty/utfcpp'
+"/usr/bin/git" "submodule" "update" "--recursive"
+--- End Update ---
+"/usr/bin/git" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> 0896fb90920c125e55248360d271d1a1674e2a4d
+--- Begin Revisions ---
+"/usr/bin/git" "rev-list" "--reverse" "0896fb90920c125e55248360d271d1a1674e2a4d..0896fb90920c125e55248360d271d1a1674e2a4d" "--" | "/usr/bin/git" "diff-tree" "--stdin" "--always" "-z" "-r" "--pretty=raw" "--encoding=utf-8"
+dt-out> 
+"/usr/bin/git" "update-index" "--refresh"
+"/usr/bin/git" "diff-index" "-z" "HEAD" "--"
+--- End Revisions ---

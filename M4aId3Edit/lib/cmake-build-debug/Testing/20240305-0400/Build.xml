@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20240305-0400-Nightly"
+	Name="192.168.0.101"
+	Generator="ctest-3.27.8"
+	CompilerName="/Library/Developer/CommandLineTools/usr/bin/c++"
+	CompilerVersion="15.0.0.15000100"
+	OSName="macOS"
+	Hostname="DEXs-MacBook-Pro.local"
+	OSRelease="14.2.1"
+	OSVersion="23C71"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="6144"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="2300"
+	>
+	<Build>
+		<StartDateTime>Mar 05 14:57 +06</StartDateTime>
+		<StartBuildTime>1709629040</StartBuildTime>
+		<BuildCommand>/Applications/CLion\ 2.app/Contents/bin/cmake/mac/x64/bin/cmake --build . --config "Release"</BuildCommand>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>Mar 05 14:57 +06</EndDateTime>
+		<EndBuildTime>1709629053</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>

@@ -1,0 +1,10 @@
+Upload files:
+0	Update.xml
+1	Configure.xml
+2	Build.xml
+3	Test.xml
+4	Done.xml
+	Upload file: /Users/dex/CLionProjects/taglib-test/taglib/cmake-build-debug/Testing/20240305-0400/Update.xml to 192.168.0.101___Darwin-c++___20240305-0400-Nightly___XML___Update.xml
+   Error when uploading file: /Users/dex/CLionProjects/taglib-test/taglib/cmake-build-debug/Testing/20240305-0400/Update.xml
+   Error message was: URL rejected: No host part in the URL
+   Problems when submitting via HTTP

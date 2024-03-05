@@ -1,0 +1,18 @@
+-- Could NOT find utf8cpp (missing: utf8cpp_INCLUDE_DIR) 
+-- Using utfcpp from /Users/dex/CLionProjects/taglib-test/taglib/3rdparty/utfcpp
+-- Ensure your cppunit installed version is at least 1.14.0
+[33mCMake Warning at CMakeLists.txt:192 (message):
+  BUILD_TESTING requested, but CppUnit not found, skipping tests.
+
+[0m
+-- The following OPTIONAL packages have been found:
+
+ * ZLIB
+
+-- The following OPTIONAL packages have not been found:
+
+ * CppUnit
+
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/dex/CLionProjects/taglib-test/taglib/cmake-build-debug
